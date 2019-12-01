@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*banner*/
+.banner_main{
+    width: 100%;
+    height: 440px;
+    position: relative;
+}
+/*大banner*/
+.banner_big li{
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    display: none;
+}
+.banner_big .active{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    display: block;
+}
+/*小banner*/
+.banner_small{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: url("../images/vip-tips.png") 0 -100px no-repeat;
+    text-align: center;
+
+}
+.banner_small li{
+    display: inline-block;
+    margin: 10px 6px;
+    border: 2px solid transparent;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+
+}
+
+.banner_small .active{
+    border-color: #fff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+
+/*强烈推荐*/
+.move_list{
+    margin-right: -20px;
+}
+.move_list li{
+    float: left;
+    width: 205px;
+    height: 337px;
+    margin-right: 18px;
+    position: relative;
+}
+.move_list img {
+    width: 205px;
+    height: 287px;
+}
+.move_list .move_title{
+    width: 100%;
+    height: 50px;
+}
+
+.move_title p a{
+    display: block;
+    width: auto;
+    height: 20px;
+    overflow: hidden;
+    color: #000;
+}
+.move_title em{
+    font-size: 12px;
+    color: #999;
+    width: 168px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    font-weight: 400;
+}
+.move_list .move_type{
+    position: absolute;
+    top:7px;
+    left: 10px;
+    width: 75px;
+    height: 18px;
+    background: url("../images/vip-tips.png");
+}
+.move_list .move_type1{
+     background-position: 0 -20px;
+ }
+.move_list .move_type2{
+    width: 72px;
+    background-position: -110px 0;
+}
+.move_list .move_definition{
+    position: absolute;
+    right: 7px;
+    bottom: 60px;
+    width: 28px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #fff;
+    text-align: center;
+}
+.move_list .move_bg{
+    position: absolute;
+    right: 7px;
+    bottom: 60px;
+    width: 28px;
+    height: 18px;
+    background: black;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+.move_list .move_grade{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    font-size: 20px;
+    color: #f60;
+    font-family: Georgia;
+}
+.move_list .move_grade i{
+    font-size: 16px;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd{margin: 0;font-size: 12px;font-weight: normal;}
+
+ul,li,ol,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+img{
+    vertical-align: middle;
+    border: none;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.cliearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cliearfix{
+    *zoom: 1;
+}
+em,i,strong,b{
+    font-style: normal;
+}
